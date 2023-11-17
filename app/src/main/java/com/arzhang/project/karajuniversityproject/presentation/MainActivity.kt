@@ -1,4 +1,4 @@
-package com.arzhang.project.karajuniversityproject
+package com.arzhang.project.karajuniversityproject.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
