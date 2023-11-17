@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">KarajUniversityProject</string>
+
+    <string name="face_mesh_detection_title">تشخیص صورت</string>
+    <string name="face_mesh_detection_description">تشخیص صورت ها در فاصله نزدیک</string>
+    <string name="face_mesh_detection_url">https://developers.google.com/static/ml-kit/vision/face-detection/images/face_detection2x.png</string>
+
+    <string name="barcode_detection_title">اسکن بارکد</string>
+    <string name="barcode_detection_description">اسکن و خواندن بارکدها</string>
+    <string name="barcode_detection_url">https://developers.google.com/static/ml-kit/vision/barcode-scanning/images/barcode_scanning2x.png</string>
+
+    <string name="text_recognition_title">تشخیص متن</string>
+    <string name="text_recognition_description">پیدا کردن و استخراج متن از تصویر</string>
+    <string name="text_recognition_url">https://developers.google.com/static/ml-kit/vision/text-recognition/images/text_recognition2x.png</string>
+
+    <string name="image_labeling_detection_title">نام گذاری تصویر</string>
+    <string name="image_labeling_detection_description">"شناسایی محصولات، اشیا، حیوانات و غیره"</string>
+    <string name="image_labeling_detection_url">https://developers.google.com/static/ml-kit/vision/image-labeling/images/image_labeling2x.png</string>
+
+    <string name="object_detection_title">تشخیص اشیا</string>
+    <string name="object_detection_description">شناسایی و دنبال کردن یک یا چند شی"</string>
+    <string name="object_detection_url">https://developers.google.com/static/ml-kit/vision/object-detection/images/object_detection2x.png</string>
+
 </resources>
