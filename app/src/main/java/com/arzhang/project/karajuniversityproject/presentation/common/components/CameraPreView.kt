@@ -1,4 +1,4 @@
-package com.chouaibmo.mlkitcompose.presentation.common.components
+package com.arzhang.project.karajuniversityproject.presentation.common.components
 
 import android.content.Context
 import androidx.camera.core.CameraSelector

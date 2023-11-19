@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.arzhang.project.karajuniversityproject.R
 import com.arzhang.project.karajuniversityproject.navigation.Screen
-import com.chouaibmo.mlkitcompose.presentation.common.components.ImageCard
+import com.arzhang.project.karajuniversityproject.presentation.common.components.ImageCard
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

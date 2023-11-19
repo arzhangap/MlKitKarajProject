@@ -2,6 +2,7 @@ package com.arzhang.project.karajuniversityproject.navigation
 
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.runtime.Composable
+import com.arzhang.project.karajuniversityproject.presentation.screens.barcode_scanning.BarcodeScanningScreen
 import com.arzhang.project.karajuniversityproject.presentation.screens.home.HomeScreen
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
@@ -35,7 +36,7 @@ fun AppNavigation() {
 //            FaceMeshDetectionScreen(navController)
         }
         composable(route = Screen.BarcodeScanning.route) {
-//            BarcodeScanningScreen(navController)
+            BarcodeScanningScreen(navController)
         }
         composable(route = Screen.ImageLabeling.route) {
 //            ImageLabelingScreen(navController)

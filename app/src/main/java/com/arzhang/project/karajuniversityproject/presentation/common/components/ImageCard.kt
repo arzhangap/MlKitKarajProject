@@ -1,4 +1,4 @@
-package com.chouaibmo.mlkitcompose.presentation.common.components
+package com.arzhang.project.karajuniversityproject.presentation.common.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
