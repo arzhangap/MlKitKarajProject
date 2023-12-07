@@ -1,7 +1,6 @@
 package com.arzhang.project.karajuniversityproject.presentation.common.utils
 
 import android.graphics.PointF
-import android.util.Log
 import androidx.compose.ui.geometry.Size
 import kotlin.math.max
 
@@ -16,4 +15,19 @@ fun adjustSize(size: Size, imageWidth: Int, imageHeight: Int, screenWidth: Int, 
     val width = scaleFactor * size.width
     val height = scaleFactor * size.height
     return Size(width, height)
+}
+
+
+fun adjustFaceMeshPoints(point: PointF, imageWidth: Int, imageHeight: Int, screenWidth: Int, screenHeight: Int): PointF {
+
+        val widthRatio = screenWidth.toFloat() / imageWidth.toFloat()
+        val heightRatio = screenHeight.toFloat() / imageHeight.toFloat()
+
+        val adjustedX = point.x * widthRatio
+        val adjustedY = point.y * heightRatio
+
+        val adjustedPoint = PointF(adjustedX, adjustedY)
+
+
+    return adjustedPoint
 }
