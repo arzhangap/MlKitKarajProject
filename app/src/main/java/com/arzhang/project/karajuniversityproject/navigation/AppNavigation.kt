@@ -32,7 +32,7 @@ fun AppNavigation() {
             TextRecognitionScreen(navController)
         }
         composable(route = Screen.ObjectDetection.route) {
-//            ObjectDetectionScreen(navController)
+            ObjectDetectionScreen(navController)
         }
         composable(route = Screen.FaceMeshDetection.route) {
             FaceMeshDetectionScreen(navController)
