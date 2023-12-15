@@ -2,7 +2,11 @@ package com.arzhang.project.karajuniversityproject.presentation.common.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -15,6 +19,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberImagePainter
+
 @Composable
 fun ImageCard(title: String, description: String, imageUrl: String, onCardClick: () -> Unit) {
     Card(
@@ -24,6 +29,7 @@ fun ImageCard(title: String, description: String, imageUrl: String, onCardClick:
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer),
     ) {
         Column(modifier = Modifier.clickable(onClick = onCardClick)) {
+            //added
             Image(
                 painter = rememberImagePainter(imageUrl),
                 contentDescription = null,
@@ -34,6 +40,7 @@ fun ImageCard(title: String, description: String, imageUrl: String, onCardClick:
                     .clip(RoundedCornerShape(bottomStart = 18.dp, bottomEnd = 18.dp))
             )
 
+            // maxLines
             Column(modifier = Modifier.padding(16.dp)) {
                 Text(
                     text = title,
