@@ -5,6 +5,8 @@ import androidx.compose.runtime.Composable
 import com.arzhang.project.karajuniversityproject.presentation.screens.barcode_scanning.BarcodeScanningScreen
 import com.arzhang.project.karajuniversityproject.presentation.screens.face_mesh.FaceMeshDetectionScreen
 import com.arzhang.project.karajuniversityproject.presentation.screens.home.HomeScreen
+import com.arzhang.project.karajuniversityproject.presentation.screens.image_labeling.ImageLabelingScreen
+import com.arzhang.project.karajuniversityproject.presentation.screens.object_detection.ObjectDetectionScreen
 import com.arzhang.project.karajuniversityproject.presentation.screens.text_recognition.TextRecognitionScreen
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
@@ -41,7 +43,7 @@ fun AppNavigation() {
             BarcodeScanningScreen(navController)
         }
         composable(route = Screen.ImageLabeling.route) {
-//            ImageLabelingScreen(navController)
+            ImageLabelingScreen(navController)
         }
     }
 }
