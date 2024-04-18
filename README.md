@@ -8,7 +8,7 @@
 A showcase App for Google Machine learning Kit as an University Project for Azad Karaj University.
 <br> This app can: Scan Barcode, Detect Face Mesh, Recognize Text, Label Images and Detect objects.
 <br><br>
-اپلیکیشن اندروید براساس کتابخانه گوگل ام ال کیت برای پروژه دانشگاه آزاد کرج
+اپلیکیشن اندروید براساس کتابخانه گوگل ام ال کیت
 <br> قابلیت ها:تشخیص و خواندن 13 نوع بارکد به صورت زنده، تشخیص چهره در تصویر به صورت زنده، تشخیص و استخراج متن از چندزبان به صورت زنده، برچسب گذاری اشیا، فعالیت ها و... موجود در تصویر به صورت زنده، تشخیص و دنبال کردن اشیا روی میز به صورت زنده
 
 
